@@ -437,6 +437,9 @@ is ready for reading, before performing the <code>splice</code>.</p>
 #### <a id="pollable"></a>`type pollable`
 [`pollable`](#pollable)
 <p>
+#### <a id="io_error"></a>`type io-error`
+[`error`](#error)
+<p>
 #### <a id="client_handshake"></a>`resource client-handshake`
 <h4><a id="client_connection"></a><code>resource client-connection</code></h4>
 <h4><a id="future_client_streams"></a><code>resource future-client-streams</code></h4>
@@ -461,6 +464,15 @@ is ready for reading, before performing the <code>splice</code>.</p>
 <h5>Return values</h5>
 <ul>
 <li><a id="static_client_handshake_finish.0"></a> own&lt;<a href="#future_client_streams"><a href="#future_client_streams"><code>future-client-streams</code></a></a>&gt;</li>
+</ul>
+<h4><a id="method_client_connection_close_notify"></a><code>[method]client-connection.close-notify: func</code></h4>
+<h5>Params</h5>
+<ul>
+<li><a id="method_client_connection_close_notify.self"></a><code>self</code>: borrow&lt;<a href="#client_connection"><a href="#client_connection"><code>client-connection</code></a></a>&gt;</li>
+</ul>
+<h5>Return values</h5>
+<ul>
+<li><a id="method_client_connection_close_notify.0"></a> option&lt;result&lt;_, own&lt;<a href="#io_error"><a href="#io_error"><code>io-error</code></a></a>&gt;&gt;&gt;</li>
 </ul>
 <h4><a id="method_future_client_streams_subscribe"></a><code>[method]future-client-streams.subscribe: func</code></h4>
 <h5>Params</h5>
