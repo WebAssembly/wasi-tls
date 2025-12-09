@@ -105,10 +105,10 @@ when it does, they are expected to subsume this API.</p>
 <h4><a id="error"></a><code>type error</code></h4>
 <p><a href="#error"><a href="#error"><code>error</code></a></a></p>
 <p>
-#### <a id="pollable"></a>`type pollable`
-[`pollable`](#pollable)
+<h4><a id="pollable"></a><code>type pollable</code></h4>
+<p><a href="#pollable"><a href="#pollable"><code>pollable</code></a></a></p>
 <p>
-#### <a id="stream_error"></a>`variant stream-error`
+<h4><a id="stream_error"></a><code>variant stream-error</code></h4>
 <p>An error for input-stream and output-stream operations.</p>
 <h5>Variant Cases</h5>
 <ul>
@@ -431,16 +431,16 @@ is ready for reading, before performing the <code>splice</code>.</p>
 <h4><a id="input_stream"></a><code>type input-stream</code></h4>
 <p><a href="#input_stream"><a href="#input_stream"><code>input-stream</code></a></a></p>
 <p>
-#### <a id="output_stream"></a>`type output-stream`
-[`output-stream`](#output_stream)
+<h4><a id="output_stream"></a><code>type output-stream</code></h4>
+<p><a href="#output_stream"><a href="#output_stream"><code>output-stream</code></a></a></p>
 <p>
-#### <a id="pollable"></a>`type pollable`
-[`pollable`](#pollable)
+<h4><a id="pollable"></a><code>type pollable</code></h4>
+<p><a href="#pollable"><a href="#pollable"><code>pollable</code></a></a></p>
 <p>
-#### <a id="io_error"></a>`type io-error`
-[`error`](#error)
+<h4><a id="io_error"></a><code>type io-error</code></h4>
+<p><a href="#error"><a href="#error"><code>error</code></a></a></p>
 <p>
-#### <a id="client_handshake"></a>`resource client-handshake`
+<h4><a id="client_handshake"></a><code>resource client-handshake</code></h4>
 <h4><a id="client_connection"></a><code>resource client-connection</code></h4>
 <h4><a id="future_client_streams"></a><code>resource future-client-streams</code></h4>
 <hr />
