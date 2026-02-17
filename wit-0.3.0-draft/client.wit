@@ -1,4 +1,6 @@
 interface client {
+    use types.{error};
+
     resource connector {
         constructor();
 
@@ -15,6 +17,6 @@ interface client {
 
         /// Perform the handshake.
         /// The `send` & `receive` streams must be set up before calling this method.
-        connect: async func(this: connector, server-name: string) -> result<_, error>;
+        connect: static async func(this: connector, server-name: string) -> result<_, error>;
     }
 }
